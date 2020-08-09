@@ -3,10 +3,13 @@
     display: inline-flex;
     margin: 0;
     width: 100vw;
+
 }
 
 .logo_container{
     position: relative;
+    margin-top: 20px;
+    margin-left: 10px
 }
 
 .portal_space_logo{
@@ -14,7 +17,8 @@
 }
 
 .menu{
-
+    right: 0;
+    position: absolute;
 }
 
 .menu_items{
@@ -22,10 +26,14 @@
     color: whitesmoke;
 }
 
-.menu_items li{
+.menu_items a{
     padding: 10px;
     margin: 10px;
     text-decoration: none;
+    color: whitesmoke;
+
+
+
 }
 
 .sticky {

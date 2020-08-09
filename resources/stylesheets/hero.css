@@ -1,4 +1,29 @@
 .hero_container{
-    background-image: url("/resources/images/logo_portal_space.png");
+    background-image: url("../images/hero_background.png");
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -20px;
+    height: 100vh
 }
+
+.hero_txt_container{
+    margin: 20px;
+    top: 30%;
+    position: absolute;
+}
+
+.hero_txt_container p{
+    color: whitesmoke;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+
+.hero_txt_container h1{
+    color: whitesmoke;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+
