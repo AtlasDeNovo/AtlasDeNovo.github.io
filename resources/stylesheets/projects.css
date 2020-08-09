@@ -1,13 +1,13 @@
 /* Split the screen in half */
-.project_container{
+.projects_container{
     position: relative;
+    height: 50vh;
+    margin-top: 10vh;
 }
 
 .split {
-    height: 100%;
-    position: absolute;
-    padding-top: 20px;
-    width: 50vw;
+position: absolute;
+width: 50vw;
 }
 
 
@@ -25,7 +25,6 @@
 /* If you want the content centered horizontally and vertically */
 .centered {
     position: absolute;
-    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;

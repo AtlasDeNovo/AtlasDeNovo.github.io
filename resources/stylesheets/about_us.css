@@ -1,0 +1,18 @@
+
+.about_us_container{
+    position: relative;
+    padding: 50vh;
+    color: whitesmoke;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.spaceman_img{
+    height: 20vh;
+}

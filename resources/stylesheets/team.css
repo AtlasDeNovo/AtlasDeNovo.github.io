@@ -1,0 +1,24 @@
+.team_container{
+    margin-top: 40px;
+    position: relative;
+    padding: 20vh;
+    color: whitesmoke;
+}
+
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.centered h2{
+    color: whitesmoke;
+    object-position: center;
+}
+
+.team_image{
+    height: 30vh;
+}
