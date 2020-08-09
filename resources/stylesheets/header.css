@@ -1,8 +1,8 @@
 .header_container{
     background-color: black;
-    display: flex;
-    position: absolute;
-    height: 100px;
+    display: inline-flex;
+    margin: 0;
+    width: 100vw;
 }
 
 .logo_container{
@@ -14,5 +14,26 @@
 }
 
 .menu{
-    position: relative;
+
+}
+
+.menu_items{
+    display: flex;
+    color: whitesmoke;
+}
+
+.menu_items li{
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 60px;
 }
