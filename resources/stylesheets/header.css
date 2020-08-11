@@ -60,5 +60,10 @@ body {
         display: block;
         text-align: left;
     }
+    .fa{
+        font-size: x-large;
+        padding-right: 10px;
+        padding-top: 10px;
+    }
 
 }

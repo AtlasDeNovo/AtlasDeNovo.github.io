@@ -1,8 +1,14 @@
-/* Split the screen in half */
+
+
 .projects_container{
     position: relative;
     height: 100vh;
+    text-align: center;
+    padding-top: 200px;
 
+}
+.projects_container h1{
+    color: sandybrown;
 }
 
 .split {
@@ -12,25 +18,78 @@
     margin-top: 20px;
 }
 
+.project_container{
+    box-shadow: 2px 8px 8px 2px rgba(0,0,0,0.4);
+    transition: 0.3s;
+    height: 35vh;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+
+
 
 /* Control the left side */
 .left {
-    left: 0;
+    right: 50%;
+    width: 40%;
+    margin-right: 10px;
 
 }
 
 /* Control the right side */
 .right {
-    right: 0;
+    left: 50%;
+    width: 40%;
+    margin-left: 10px;
 }
 
 .project_list{
     text-align: center;
+    margin-top: 20px;
+}
+
+
+
+.apply{
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    border-radius: 8px;
+    background-color: black;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+}
+
+.apply:hover{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    transition: 0.3s;
+    background-color: #444444;
 }
 
 @media screen and (max-width: 600px) {
     .split {
         width: 100%;
         position: relative;
+    }
+    .left{
+        right: 0;
+        margin-right: 0;
+    }
+    .right{
+        left: 0;
+        margin-left: 0;
+    }
+    .project_container{
+        height: 45vh;
+    }
+    .projects_container{
+        padding-top: 0;
     }
 }
