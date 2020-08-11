@@ -15,5 +15,9 @@
 }
 
 .spaceman_img{
-    height: 20vh;
+    height: 25vh;
+}
+
+#about_us_style_text{
+    color: darkgray;
 }

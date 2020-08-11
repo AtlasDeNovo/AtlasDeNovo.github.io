@@ -1,18 +1,10 @@
 .team_container{
-    margin-top: 40px;
     position: relative;
-    padding: 20vh;
     color: whitesmoke;
+    height: 100vh;
 }
 
 
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
 
 .centered h2{
     color: whitesmoke;
@@ -20,5 +12,6 @@
 }
 
 .team_image{
-    height: 30vh;
+    height: 40vh;
+    object-position: center;
 }

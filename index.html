@@ -39,14 +39,27 @@
                     return;
                 }
             }
-        };
+        }
     </script>
+    <script>
+        function ham() {
+            var x = document.getElementById("ham_menu");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+
+
 
 </head>
 <body>
 
 <div w3-include-html="header.html"></div>
-<div w3-include-html="hero.html"></div>
+<div id="fp_hero" w3-include-html="hero.html"></div>
 <div id="fp_about" w3-include-html="about_us.html"></div>
 <div id="fp_projects" w3-include-html="projects.html"></div>
 <div id="fp_team" w3-include-html="team.html"></div>
@@ -57,6 +70,8 @@
 <script>
     includeHTML();
 </script>
+
+
 
 </body>
 </html>

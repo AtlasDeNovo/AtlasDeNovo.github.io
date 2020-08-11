@@ -3,37 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Header</title>
 </head>
 <body>
-<div id="navbar" class="header_container">
-    <div class="logo_container">
-        <img class="portal_space_logo" src="resources/images/logo_portal_space.png" alt="logo Portal Space">
-    </div>
+<div id="navbar" class="topnav">
     <div class="menu">
-        <div class="menu_items">
-            <a href="#fp_about">About us</a>
-            <a href="#fp_projects">Projects</a>
-            <a href="#fp_team">team</a>
+        <div class="menu_items" id="ham_menu">
+            <a href="#fp_hero">
+                <img class="portal_space_logo" src="resources/images/logo_portal_space.png" alt="logo Portal Space">
+            </a>
             <a href="#fp_contact">contact</a>
+            <a href="#fp_team">team</a>
+            <a href="#fp_projects">Projects</a>
+            <a href="#fp_about">About us</a>
+            <a href="javascript:void(0);" class="icon" onclick="ham()">
+                <i class="fa fa-bars"></i>
+            </a>
         </div>
     </div>
 </div>
-
-<script>
-    window.onscroll = function() {myFunction()};
-
-    var navbar = document.getElementById("navbar");
-    var sticky = navbar.offsetTop;
-
-    function myFunction() {
-        if (window.pageYOffset >= sticky) {
-            navbar.classList.add("sticky")
-        } else {
-            navbar.classList.remove("sticky");
-        }
-    }
-</script>
 
 
 </body>
