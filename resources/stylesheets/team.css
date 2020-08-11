@@ -3,8 +3,27 @@
     color: whitesmoke;
     height: 100vh;
 }
+#txt_styling{
+    color: dimgrey;
+    font-size: 22px;
+}
 
+.join_buttons{
+    border-radius: 8px;
+    background-color: black;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
 
+}
+
+.centered{
+    top: 20%;
+    text-align: center;
+    position: relative;
+}
 
 .centered h2{
     color: whitesmoke;
