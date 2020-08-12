@@ -3,6 +3,7 @@
     color: whitesmoke;
     margin-bottom: 200px;
     padding-top: 200px;
+    overflow: hidden;
 }
 #txt_styling{
     color: dimgrey;
@@ -17,6 +18,7 @@
     padding: 10px;
     font-size: 20px;
     border: none;
+    margin: 10px;
 
 }
 
@@ -45,5 +47,9 @@
     .team_container{
         margin-top: 100px;
         padding-top: 50px;
+    }
+    .team_image{
+        width: 100vw;
+        height: auto;
     }
 }
