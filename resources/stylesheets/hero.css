@@ -39,5 +39,8 @@
     .hero_txt_container{
         margin: 20px;
     }
+    .hero_container{
+        background-image: url("../images/mobile_hero.png");
+    }
 }
 

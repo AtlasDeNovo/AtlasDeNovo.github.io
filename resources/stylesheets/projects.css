@@ -70,7 +70,32 @@
 .apply:hover{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
     transition: 0.3s;
-    background-color: #444444;
+}
+
+
+.apply span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.apply span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.apply:hover span {
+    padding-right: 25px;
+}
+
+.apply:hover span:after {
+    opacity: 1;
+    right: 0;
 }
 
 @media screen and (max-width: 600px) {
@@ -90,7 +115,7 @@
         height: 45vh;
     }
     .projects_container{
-        padding-top: 0;
+        padding-top: 15%;
         height: 100vh;
     }
 }
