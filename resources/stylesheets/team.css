@@ -1,7 +1,8 @@
 .team_container{
     position: relative;
     color: whitesmoke;
-    height: 100vh;
+    margin-bottom: 200px;
+    padding-top: 200px;
 }
 #txt_styling{
     color: dimgrey;
@@ -17,6 +18,11 @@
     font-size: 20px;
     border: none;
 
+}
+
+.button_container{
+    display: flex;
+    justify-content: center;
 }
 
 .centered{
@@ -38,5 +44,6 @@
 @media screen and (max-width: 600px) {
     .team_container{
         margin-top: 100px;
+        padding-top: 50px;
     }
 }
