@@ -8,7 +8,14 @@
 
 }
 .projects_container h1{
-    color: sandybrown;
+    color: #e9e8ee;
+    margin-bottom: 100px;
+}
+
+.project_container h2{
+    color: #101b39;
+    margin-top: 30px;
+    font-size: xx-large;
 }
 
 .split {
@@ -22,10 +29,9 @@
     box-shadow: 2px 8px 8px 2px rgba(0,0,0,0.4);
     transition: 0.3s;
     height: 35vh;
-    padding-left: 10px;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 10px;
+   padding: 30px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
 }
 
 
@@ -36,7 +42,7 @@
 .left {
     right: 50%;
     width: 40%;
-    margin-right: 10px;
+    margin-right: 50px;
 
 }
 
@@ -44,13 +50,16 @@
 .right {
     left: 50%;
     width: 40%;
-    margin-left: 10px;
+    margin-left: 50px;
 }
 
 .project_list{
     text-align: center;
     margin-top: 20px;
+    color: #101b39;
 }
+
+
 
 
 
@@ -59,7 +68,7 @@
     right: 20px;
     bottom: 10px;
     border-radius: 8px;
-    background-color: black;
+    background-color: #232323;
     color: whitesmoke;
     text-decoration: none;
     padding: 20px;
