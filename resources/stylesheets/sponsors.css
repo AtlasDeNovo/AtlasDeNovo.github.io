@@ -7,3 +7,33 @@ h1{
     font-family: Exo;
 }
 
+.UIO {
+  height: 250px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+
+.Insj {
+  height: 250px;
+  padding-right: 40px;
+}
+
+.Meteor {
+  height: 200px;
+  padding-right: 40px;
+}
+
+.Kjeller {
+  height: 150px;
+
+}
+
+
+.Ellingsen {
+  position: relative;
+  left: 30px;
+
+  height: 100px;
+}
+
