@@ -41,6 +41,7 @@
 @media screen and (max-width: 600px) {
     .hero_txt_container h1 {
         font-size: 5rem;
+        font-family: Exo;
     }
     .hero_txt_container{
         margin: 20px;
