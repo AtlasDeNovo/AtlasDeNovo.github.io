@@ -1,4 +1,9 @@
 
+@font-face {
+    font-family: Exo;
+    src: url(Exo2-Light.ttf);  /* first font == regular */
+}
+
 .footer_container{
     display: flex;
     background-color: black;

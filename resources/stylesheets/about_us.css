@@ -1,8 +1,12 @@
+@font-face {
+    font-family: Exo;
+    src: url(Exo2-Light.ttf);  /* first font == regular */
+}
 
 .about_us_container{
     position: relative;
     color: whitesmoke;
-    font-family: Exo2-light;
+    font-family: Exo;
     height: 100vh;
 }
 
@@ -12,11 +16,9 @@
     position: relative;
 }
 
-.spaceman_img{
-    height: 25vh;
-}
 
 #about_us_style_text{
+    font-family: Exo;
     color: darkgray;
 }
 

@@ -1,0 +1,10 @@
+@font-face {
+    font-family: Exo;
+    src: url(Exo2-Light.ttf);  /* first font == regular */
+  }
+
+h1{
+    font-family: Exo;
+    font-size:200px;
+}
+

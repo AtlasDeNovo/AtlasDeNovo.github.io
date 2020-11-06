@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Exo;
+    src: url(Exo2-Light.ttf);  /* first font == regular */
+}
+
 .team_container{
     position: relative;
     color: whitesmoke;
