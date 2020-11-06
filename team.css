@@ -42,6 +42,7 @@
 .centered h2{
     color: whitesmoke;
     object-position: center;
+    font-family: Exo;
 }
 
 .team_image{
