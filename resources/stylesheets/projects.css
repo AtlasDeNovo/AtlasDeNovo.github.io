@@ -1,101 +1,39 @@
 @font-face {
     font-family: Exo;
-    src: url(Exo2-Light.ttf);  /* first font == regular */
+    src: url(Exo2-Light.ttf);  /* Puts in Exo2 Font */
 }
 
 .projects_container{
     position: relative;
     text-align: center;
-    height: 70vh;
-
-}
-.projects_container h1{
-    color: #e9e8ee;
-    padding-bottom: 100px;
-    font-family: Exo;
+    height: auto;
+    margin-bottom: 10px;
 }
 
-.project_container h2{
-    color: #101b39;
-    margin-top: 30px;
-    font-size: xx-large;
-    font-family: Exo;
+.mk2Render{
+    max-width: 69%;
+    height: auto;
 }
 
-.split {
-    position: absolute;
-    width: 50vw;
-    text-align: center;
-    margin-top: 20px;
+.novusLaunch{
+    max-width: 45%;
+    height: auto;
 }
 
-.project_container{
-    box-shadow: 2px 8px 8px 2px rgba(0,0,0,0.4);
-    transition: 0.3s;
-    height: 35vh;
-    padding: 30px;
-    background-color: #f2f2f2;
-    border-radius: 10px;
-}
-
-
-
-
-
-/* Control the left side */
-.left {
-    right: 50%;
-    width: 40%;
-    margin-right: 50px;
-
-}
-
-/* Control the right side */
-.right {
-    left: 50%;
-    width: 40%;
-    margin-left: 50px;
-}
-
-.project_list{
-    text-align: center;
-    margin-top: 20px;
-    color: #101b39;
-}
-
-
-
-
-
-.apply{
-    position: absolute;
-    right: 20px;
-    bottom: 10px;
-    border-radius: 8px;
-    background-color: #232323;
-    color: whitesmoke;
-    text-decoration: none;
-    padding: 20px;
-    font-size: 20px;
-    border: none;
-}
 
 .apply:hover{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
     transition: 0.3s;
 }
 
-
 .apply span {
     cursor: pointer;
     display: inline-block;
-    position: relative;
     transition: 0.5s;
 }
 
 .apply span:after {
     content: '\00bb';
-    position: absolute;
     opacity: 0;
     top: 0;
     right: -20px;
@@ -114,7 +52,6 @@
 @media screen and (max-width: 600px) {
     .split {
         width: 90%;
-        position: relative;
     }
     .left{
         right: 0;
@@ -131,6 +68,6 @@
     }
     .projects_container{
         padding-top: 15%;
-        height: 120vh;
+        height: auto;
     }
 }

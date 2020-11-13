@@ -6,9 +6,10 @@
 .team_container{
     position: relative;
     color: whitesmoke;
-    margin-bottom: 200px;
-    padding-top: 200px;
+    margin-bottom: 10px;
+    padding-top: 100px;
     overflow: hidden;
+    height: auto;
 }
 #txt_styling{
     color: dimgrey;
@@ -36,7 +37,6 @@
 .centered{
     top: 20%;
     text-align: center;
-    position: relative;
 }
 
 .centered h2{
